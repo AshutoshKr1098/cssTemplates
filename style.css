@@ -5,3 +5,21 @@
     font-size: 100%;
     line-height: 1;
 }
+
+/*PLAYING WITH FONTS IN CSS */
+
+body{
+    font-size: 14px;;
+}
+h1{
+    font-size: 2em;
+    text-decoration: underline;
+}
+p{
+    font-size: 200%;
+    line-height: 1.5;
+}
+
+/*Font size can be relative or absolute. Relative uses ems and %
+and its of good use in making a responsive website. 
+*/
