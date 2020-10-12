@@ -4,7 +4,7 @@
     padding: 0px;
 }
 body{
-    
+    background-color: tomato;
     border: 5px solid black;
     
 }
@@ -20,4 +20,12 @@ span{
     padding: 20px;
     display: block;
     margin: 5px;
+}
+.learning p, .span-learning{
+    background-color: burlywood;
+    padding: 5px;
+}
+
+.note{
+    background-color: violet;
 }
