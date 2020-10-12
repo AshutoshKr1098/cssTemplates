@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #aaa;
+}
+.container{
+    height:1000px;
+    background-color: darkblue;
+    padding: 100px 30px 30px 30px;
+    width: 90%;
+    margin: 0px auto;
+}
+.div-mid{
+    background-color: darkgoldenrod;
+    padding: 30px;
+    width: 80%;
+    margin: 0px auto;
+}
+.inner{
+
+    width:70%;
+    margin: 0px auto 10px auto;
+    height:50px;
+    background-color: crimson;   
+}
+.div1{
+    background-color: rgb(114, 108, 108);
+    position: fixed;
+    top:0px;
+    left: 0px;
+    margin: 0px;
+    width: 100%;
+    
+}
+ul{
+    padding: 20px;
+}
+li{
+    display: inline-block;    
+    width: 100px;
+    background-color: #333;
+    height:20px;
+}
