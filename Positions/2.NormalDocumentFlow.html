@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Normal Document Flow</title>
+    <link rel="stylesheet" href="./2.NormalDocumentFlow.css">
+</head>
+<body>
+    <div class="divs overflow">
+        This is div1
+        <p class="section">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda soluta consectetur ducimus totam quaerat porro possimus, in harum laborum? Eius temporibus corporis voluptatibus, doloribus ab consequatur necessitatibus! Illo, porro temporibus.
+        </p>        
+    </div>
+    <div class="divs overflow">
+        This is div2
+
+    </div>
+    <div class="divs overflow">
+        Here as you can see, the height when increased
+        push the other divs down. This is because, maybe
+        the y-axis grows upwards or idk why.
+
+        <span>Also note that the base is same for all
+            divs.
+        </span>        
+    </div>    
+    <button>Click to Toggle Overflow</button>
+   <script>
+       const btn = document.querySelector('button');
+       btn.addEventListener('click',()=>{
+        document.querySelectorAll('.divs').forEach(div=>{
+            div.classList.toggle("overflow");
+        })
+       })
+   </script>
+</body>
+</html>
