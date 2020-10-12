@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    
+    border: 5px solid black;
+    
+}
+div{
+    background-color: green;
+    
+}
+p{
+    background-color: greenyellow;
+}
+span{
+    background-color: teal;
+    padding: 20px;
+    display: block;
+    margin: 5px;
+}
