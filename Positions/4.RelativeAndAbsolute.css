@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: linear-gradient(rgb(214, 8, 8),rgb(51, 51, 51))
+}
+.banner{
+    height: 800px;
+    overflow: hidden;
+    position: relative;
+}
+.banner .promotion{
+    background: linear-gradient(to right,rgb(235, 179, 95),rgb(219, 55, 55));
+    padding: 10px;
+    color: red;
+    font-size: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+ 
+}
+.banner .promotion p{
+    width: 100%;
+    text-align: center;
+    
+}
+.banner span{
+    font-size: 1.5em;
+    font-weight: bold;
+    display: inline-block;
+}
+.banner-heading{
+    position: absolute;
+    width: 650px;
+    top: 220px;
+    left: 200px;
+    color: wheat;
+    background-color: black;
+    font-size: 3em;
+}
+.content{
+   
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1200px;
+    white-space: nowrap;
+}
+.content p{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Chilanka', cursive;
+}
+.card{
+    display: inline-block;
+    width: 33%;
+    margin: 20px 2px;
+    height: 200px;
+    background: linear-gradient(to right,rgb(68, 213, 218),rgb(35, 70, 71)) ;
+    text-align: center;
+    position: relative;
+}
+.card span{
+    position: absolute;
+    top: 33%;
+    left: 35%;
+    color: white;
+    font-size: 2em;
+    border: 4px solid white;
+    padding: 10px;
+}
